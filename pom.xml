@@ -6,29 +6,27 @@
     <groupId>com.xunqi.gulimall</groupId>
     <artifactId>cloud-gulimall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gulimall</name>
+    <name>cloud-gulimall</name>
     <description>聚合服务</description>
     <packaging>pom</packaging>
 
     <modules>
-        <module>gulimall-common</module>
-        <module>gulimall-coupon</module>
-        <module>gulimall-gateway</module>
-        <module>gulimall-member</module>
-        <module>gulimall-order</module>
-        <module>gulimall-product</module>
-        <module>gulimall-third-party</module>
-        <module>gulimall-ware</module>
-        <module>gulimall-search</module>
+        <module>cloud-gulimall-common</module>
+        <module>cloud-gulimall-coupon</module>
+        <module>cloud-gulimall-gateway</module>
+        <module>cloud-gulimall-member</module>
+        <module>cloud-gulimall-order</module>
+        <module>cloud-gulimall-product</module>
+        <module>cloud-gulimall-ware</module>
+        <module>cloud-gulimall-search</module>
         <module>renren-generator</module>
-        <module>gulimall-common</module>
-        <module>gulimall-third-party</module>
-        <module>gulimall-search</module>
-        <module>gulimall-auth-server</module>
-        <module>gulimall-cart</module>
-        <module>gulimall-test-sso-client</module>
-        <module>gulimall-test-sso-server</module>
-        <module>gulimall-seckill</module>
+        <module>cloud-gulimall-third-party</module>
+        <module>cloud-gulimall-auth-server</module>
+        <module>cloud-gulimall-cart</module>
+        <module>cloud-gulimall-test-sso-client</module>
+        <module>cloud-gulimall-test-sso-server</module>
+        <module>cloud-gulimall-seckill</module>
+        <module>renren-fast</module>
     </modules>
 
 
