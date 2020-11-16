@@ -2,18 +2,17 @@ package com.example.modules.product.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-
-import java.math.BigDecimal;
-import java.io.Serializable;
-import java.util.Date;
 import lombok.Data;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
 
 /**
  * sku信息
  * 
  * @author zhen
  * @email 810911851@qq.com
- * @date 2020-11-13 17:44:13
+ * @date 2020-11-16 09:45:57
  */
 @Data
 @TableName("pms_sku_info")

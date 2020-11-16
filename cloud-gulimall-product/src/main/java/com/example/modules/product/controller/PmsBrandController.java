@@ -1,20 +1,16 @@
 package com.example.modules.product.controller;
 
+import com.example.common.utils.PageUtils;
+import com.example.common.utils.R;
+import com.example.modules.product.entity.PmsBrandEntity;
+import com.example.modules.product.service.PmsBrandService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
 import java.util.Arrays;
 import java.util.Map;
 
 //import org.apache.shiro.authz.annotation.RequiresPermissions;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-
-import com.example.modules.product.entity.PmsBrandEntity;
-import com.example.modules.product.service.PmsBrandService;
-import com.example.common.utils.PageUtils;
-import com.example.common.utils.R;
 
 
 
@@ -23,7 +19,7 @@ import com.example.common.utils.R;
  *
  * @author zhen
  * @email 810911851@qq.com
- * @date 2020-11-13 17:47:52
+ * @date 2020-11-16 09:45:58
  */
 @RestController
 @RequestMapping("product/pmsbrand")

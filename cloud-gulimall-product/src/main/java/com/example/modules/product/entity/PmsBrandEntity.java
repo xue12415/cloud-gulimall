@@ -2,17 +2,16 @@ package com.example.modules.product.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
 
 import java.io.Serializable;
-import java.util.Date;
-import lombok.Data;
 
 /**
  * 品牌
  * 
  * @author zhen
  * @email 810911851@qq.com
- * @date 2020-11-13 17:44:14
+ * @date 2020-11-16 09:45:58
  */
 @Data
 @TableName("pms_brand")

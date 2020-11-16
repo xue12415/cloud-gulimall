@@ -23,7 +23,7 @@ import com.example.common.utils.R;
  *
  * @author zhen
  * @email 810911851@qq.com
- * @date 2020-11-13 17:47:51
+ * @date 2020-11-16 09:45:57
  */
 @RestController
 @RequestMapping("product/pmsskuimages")
