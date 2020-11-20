@@ -5,21 +5,21 @@ spring:
   datasource:
     username: root
     password: 123456
-    url: jdbc:mysql://49.232.212.48:3306/gulimall_pms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://49.232.212.48:3306/cloud_mall_pms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8848
+        server-addr: 49.232.212.48:8848
 
     sentinel:
       transport:
         #配置sentinel dashboard地址
         dashboard: localhost:8080
 
-  redis:
-    port: 6379
-    host: 49.232.212.48
+#  redis:
+#    port: 6379
+#    host: 49.232.212.48
 
 #开启feign对sentinel的支持
 feign:

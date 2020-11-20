@@ -13,13 +13,14 @@
     <modules>
         <module>cloud-gulimall-common</module>
         <module>cloud-gulimall-coupon</module>
-        <module>cloud-gulimall-gateway</module>
+        <module>cloud-mall-gateway</module>
         <module>cloud-gulimall-member</module>
         <module>cloud-gulimall-order</module>
         <module>cloud-gulimall-product</module>
         <module>cloud-gulimall-ware</module>
         <module>cloud-gulimall-search</module>
         <module>renren-generator</module>
+        <module>renren-fast</module>
         <module>cloud-gulimall-third-party</module>
         <module>cloud-gulimall-auth-server</module>
         <module>cloud-gulimall-cart</module>

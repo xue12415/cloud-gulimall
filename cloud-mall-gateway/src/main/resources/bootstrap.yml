@@ -1,6 +1,6 @@
 spring:
   application:
-    name: cloud-mall-product
+    name: cloud-mall-gateway
 
   cloud:
     nacos:
